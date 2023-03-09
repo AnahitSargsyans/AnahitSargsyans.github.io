@@ -1342,6 +1342,7 @@ input, select{
         flex-direction: column;
         justify-content: center;
         float: none;
+        background-position: center center;
     }
 
 
