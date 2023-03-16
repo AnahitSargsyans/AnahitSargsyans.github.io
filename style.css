@@ -1308,6 +1308,10 @@ input, select{
         width: 90%;
         margin: 10px auto;
     }
+    input[type="date"]{
+        width: 90%;
+        margin: 10px auto;
+    }
     .last-button{
         width: 90%;
         margin: 10px auto;
@@ -1365,6 +1369,7 @@ input, select{
         width: 80%;
     }
 }
+
 
 
 
