@@ -24,8 +24,6 @@
     color: black
 }
 
-
-
 .header{
     width: 100%;
     height: auto;
@@ -148,10 +146,6 @@ ul>li a:hover{
     }
 }
 
-
-
-
-
 .about{
     width: 100%;
     height: auto;
@@ -186,10 +180,6 @@ ul>li a:hover{
 .about-box:hover{
     box-shadow: 5px 10px 10px 5px rgb(0 0 0 / 20%);
 }
-
-
-
-
 
 #speakers{
     width: 95%;
@@ -285,10 +275,6 @@ ul>li a:hover{
     text-decoration: none;
     color: #ff8562;
 }
-
-
-
-
 
 #timetable{
     width: 100%;
@@ -410,12 +396,6 @@ ul>li a:hover{
     color: #f5914F;
 }
 
-
-
-
-
-
-
 .section{
     width: 100%;
     height: auto;
@@ -482,10 +462,6 @@ ul>li a:hover{
     line-height: 1.55;
 }
 
-
-
-
-
 #location{
     width: 100%;
     height: auto;
@@ -523,10 +499,6 @@ ul>li a:hover{
     font-weight: 300;
     line-height: 1.55;
 }
-
-
-
-
 
 .karusel{
     width: 100%;
@@ -619,10 +591,6 @@ ul>li a:hover{
     right: 40px;
 }
 
-
-
-
-
 .registration{
     width: 100%;
     height: auto;
@@ -641,7 +609,6 @@ ul>li a:hover{
     box-shadow: 0 1px 3px rgb(0 0 0 / 0%);
     transition: background-color .3s linear;
 }
-
 @keyframes nkar{
     from{background-image: -webkit-linear-gradient(top, rgb(0, 0, 0), rgb(0, 0, 0));}
     to{background-image: -webkit-linear-gradient(top,rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));}
@@ -718,11 +685,6 @@ input, select{
     line-height: 1.55;
     font-weight: 300;    
 }
-
-
-
-
-
 
 .partner{
     width: 100%;
@@ -809,9 +771,6 @@ input, select{
     background-image: url(../image/24-logo-Vortex.jpg);
 }
 
-  
-
-
 #contacts{
     width: 100%;
     height: auto;
@@ -878,10 +837,7 @@ input, select{
     display: none;
 }
 
-
-
 @media only screen and (max-width: 992px){
-
     .fixed{
         display: none;
     }    
@@ -909,8 +865,7 @@ input, select{
         color: black;
     }
     .mobile-menu{
-        display: block;
-     
+        display: block;     
         color: white;
         font-size: 40px;
         position: absolute;
@@ -943,8 +898,6 @@ input, select{
         animation-name: none;
     }
 
-
-
     .about{
         flex-direction: column;
         align-items: center;
@@ -952,8 +905,6 @@ input, select{
     .about-box{
         width: 75%;
     }
-
-
 
     #speakers{
         width: 100%;
@@ -990,8 +941,6 @@ input, select{
     #speakers>.speakers-members>.speakers-box>.speakers-text>p{
         font-size: 12px;
     }
-
-
 
     #timetable{
         animation-name: none;
@@ -1035,10 +984,6 @@ input, select{
     #timetable>.timetable-block>.timetable-container>.rightcol>.double>.double-rightcol>p{
         font-size: 14px;
     }
-
-
-
-
     
     .section-header{
         width: 70%;
@@ -1058,9 +1003,6 @@ input, select{
         width: 45%; 
         animation: none;
     }
-    
-
-
 
     #location{
         flex-direction: column;
@@ -1076,8 +1018,6 @@ input, select{
     #location>.location-text>p{
         font-size: 18px;
     }
-
-
 
     .karusel-header{
         width: 100%;
@@ -1101,9 +1041,6 @@ input, select{
     .hidden{
         display: none;
     }
-
-
-
 
     .registration{
         vertical-align: middle;
@@ -1132,8 +1069,6 @@ input, select{
         font-size: 14px;
     }
 
-
-
     .partner-header{
         width: 80%;
         padding: 30px ;
@@ -1161,9 +1096,6 @@ input, select{
         margin: 10px;
     }
 
-
-
-
     .contacts-header{
         width: 80%;
     }
@@ -1175,11 +1107,6 @@ input, select{
         padding-bottom: 10px;
     }
 }
-
-
-
-
-
 
 @media only screen and (max-width: 600px){
     body{
@@ -1228,8 +1155,6 @@ input, select{
         font-size: 26px;
     }
 
-
-
     .about{
         flex-direction: column;
         align-items: center;
@@ -1243,8 +1168,6 @@ input, select{
     .about-box>h1{
         font-size: 24px;
     }
-
-
 
     #speakers{
         width: 100%;
@@ -1280,10 +1203,6 @@ input, select{
     #speakers>.speakers-members>.speakers-box>.speakers-text>p{
         font-size: 12px;
     }
-
-
-
-
 
     #timetable{
         animation-name: none;
@@ -1347,10 +1266,6 @@ input, select{
         font-size: 22px;
     }
 
-
-
-
-
     .section{
         padding: 30px 10px;
     }
@@ -1378,10 +1293,6 @@ input, select{
         font-size: 20px;
     }
 
-
-
-
-
     #location{
         flex-direction: column;
         padding: 20px 0px;
@@ -1397,9 +1308,6 @@ input, select{
     #location>.location-text>p{
         font-size: 16px;
     }
-
-
-
 
     .karusel{
         padding: 20px 0px;
@@ -1435,10 +1343,6 @@ input, select{
     .hidden{
         display: none;
     }
-
-
-
-
     
     .registration-header{
         width: 100%;
@@ -1469,10 +1373,6 @@ input, select{
     .confidence{
         width: 85%;
     }
-
-
-
-
     
     .partner-header{
         width: 100%;
@@ -1489,11 +1389,6 @@ input, select{
         width: 40%;
         padding: 0px;
     }
-    
-
-
-
-
     
     #contacts{
         width: 100%;
