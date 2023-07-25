@@ -591,7 +591,7 @@ ul>li a:hover{
     right: 40px;
 }
 
-.registration{
+#registration{
     width: 100%;
     height: auto;
     background-image: url(../image/14-meeting.jpg);
@@ -621,7 +621,7 @@ ul>li a:hover{
     text-align: center;
     color: white;
 }
-.registration>.registration-color>.registration-header>h1{
+#registration>.registration-color>.registration-header>h1{
     font-size: 42px;
     font-weight: 600;
     line-height: 1.23;
@@ -634,7 +634,7 @@ ul>li a:hover{
     text-align: center;
     color: white;
 }
-.registration>.registration-color>.registration-price>p{
+#registration>.registration-color>.registration-price>p{
     font-size: 20px;
     line-height: 1.55;
     font-weight: 300;
@@ -680,7 +680,7 @@ input, select{
     text-align: center;
     color: white;
 }
-.registration>.registration-color>.confidence>p{
+#registration>.registration-color>.confidence>p{
     font-size: 15px;
     line-height: 1.55;
     font-weight: 300;    
@@ -1042,16 +1042,16 @@ input, select{
         display: none;
     }
 
-    .registration{
+    #registration{
         vertical-align: middle;
     }
     .registration-header{
         width: 80%;        
     }
-    .registration>.registration-color>.registration-header>h1{
+    #registration>.registration-color>.registration-header>h1{
         font-size: 38px;
     }
-    .registration>.registration-color>.registration-price>p{
+    #registration>.registration-color>.registration-price>p{
         font-size: 18px;
     }
     .registration-block{
@@ -1065,7 +1065,7 @@ input, select{
     .confidence{
         width: 75%;
     }
-    .registration>.registration-color>.confidence>p{
+    #registration>.registration-color>.confidence>p{
         font-size: 14px;
     }
 
@@ -1348,10 +1348,10 @@ input, select{
         width: 100%;
         padding: 20px 0px;
     }
-    .registration>.registration-color>.registration-header>h1{
+    #registration>.registration-color>.registration-header>h1{
         font-size: 30px;
     }
-    .registration>.registration-color>.price>p{
+    #registration>.registration-color>.price>p{
         font-size: 16px;
     }
     .registration-price{
