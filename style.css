@@ -870,7 +870,6 @@ input, select{
         font-size: 40px;
         position: absolute;
         right: 20px;
-        top: 0;
     }
     .fa-xmark{
         display: none;
@@ -881,7 +880,6 @@ input, select{
     .menu-rightside{
         width: 100%;
         margin: auto;
-        text-align: center;
     }
     .menu-button{
         float: left;
