@@ -911,8 +911,7 @@ input, select{
         color: white;
         font-size: 40px;
         position: absolute;
-        right: 20px;
-        
+        right: 20px;        
     }
     .fa-xmark{
         display: none;
