@@ -28,7 +28,7 @@
     width: 100%;
     height: auto;
     font-family: "Segoe UI",Arial,sans-serif;
-    background-image: url(../image/1-network-digital-marketing.jpg);
+    background-image: url(1-network-digital-marketing.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -231,7 +231,7 @@ ul>li a:hover{
     height: 280px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(../image/2-speakers-James-Qalef.jpg);
+    background-image: url(2-speakers-James-Qalef.jpg);
     background-size: cover;
     border-radius: 50%;
     padding: 10px;
@@ -245,22 +245,22 @@ ul>li a:hover{
     to{ opacity: 1;}
 }
 .people1{
-    background-image: url(../image/2-speakers-James-Qalef.jpg);
+    background-image: url(2-speakers-James-Qalef.jpg);
 }
 .people2{
-    background-image: url(../image/3-speakers-Eva-Stark.jpg);
+    background-image: url(3-speakers-Eva-Stark.jpg);
 }
 .people3{
-    background-image: url(../image/4-speakers-Aleksey-Pokhvalniy.jpg);
+    background-image: url(4-speakers-Aleksey-Pokhvalniy.jpg);
 }
 .people4{
-    background-image: url(../image/5-speakers-Elyes-Boni.jpg);
+    background-image: url(5-speakers-Elyes-Boni.jpg);
 }
 .people5{
-    background-image: url(../image/6-speakers-Petr-Kochetov.jpg);
+    background-image: url(6-speakers-Petr-Kochetov.jpg);
 }
 .people6{
-    background-image: url(../image/7-speakers-Maksim-Beak.jpg);
+    background-image: url(7-speakers-Maksim-Beak.jpg);
 }
 .speakers-text{
     text-align: center;
@@ -453,17 +453,17 @@ ul>li a:hover{
 }
 .fotos{
     height: 450px;
-    background-image: url(../image/8-expert-experience.jpg);
+    background-image: url(8-expert-experience.jpg);
     background-size: cover; 
 }
 .anim1{
-    background-image: url(../image/8-expert-experience.jpg);
+    background-image: url(8-expert-experience.jpg);
 }
 .anim2{
-    background-image: url(../image/9-practical-lessons.jpg);
+    background-image: url(9-practical-lessons.jpg);
 }
 .anim3{
-    background-image: url(../image/10-new-acquaintances.jpg);
+    background-image: url(10-new-acquaintances.jpg);
 }
 .block-header{
     height: auto;
@@ -624,7 +624,7 @@ ul>li a:hover{
 #registration{
     width: 100%;
     height: auto;
-    background-image: url(../image/14-meeting.jpg);
+    background-image: url(14-meeting.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -772,39 +772,39 @@ input, select{
     height: 220px;
     margin: 13px;
     padding: 10px;    
-    background-image: url(../image/15-logo-Aspen.jpg);
+    background-image: url(15-logo-Aspen.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
 .kub1{
-    background-image: url(../image/15-logo-Aspen.jpg);
+    background-image: url(15-logo-Aspen.jpg);
 }
 .kub2{
-    background-image: url(../image/16-logo-Cropand.jpg);
+    background-image: url(16-logo-Cropand.jpg);
 }
 .kub3{
-    background-image: url(../image/17-logo-NN.jpg);
+    background-image: url(/17-logo-NN.jpg);
 }
 .kub4{
-    background-image: url(../image/18-logo-Miiisy.png);
+    background-image: url(18-logo-Miiisy.png);
 }
 .kub5{
-    background-image: url(../image/19-logo-Peppermint.jpg);
+    background-image: url(19-logo-Peppermint.jpg);
 }
 .kub6{
-    background-image: url(../image/20-logo-Pixie.jpg);
+    background-image: url(20-logo-Pixie.jpg);
 }
 .kub7{
-    background-image: url(../image/21-logo-Marnie.jpg);
+    background-image: url(21-logo-Marnie.jpg);
 }
 .kub8{
-    background-image: url(../image/22-logo-CloseHR.jpg);
+    background-image: url(22-logo-CloseHR.jpg);
 }
 .kub9{
-    background-image: url(../image/23-logo-Post.jpg);
+    background-image: url(23-logo-Post.jpg);
 }
 .kub10{
-    background-image: url(../image/24-logo-Vortex.jpg);
+    background-image: url(24-logo-Vortex.jpg);
 }
 
   
