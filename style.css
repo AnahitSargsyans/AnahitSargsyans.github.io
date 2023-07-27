@@ -878,6 +878,39 @@ input, select{
 }
 
 
+.scrollBtn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #343a40;
+    box-shadow: 2px 5px 8px grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;      
+    background-color: white;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    animation: scrollAnim 0.8s linear infinite alternate;
+    transition: transform 0.5;
+    cursor: pointer;
+    display: none;
+}
+.scrollBtn:hover{
+    background-color: #343a40;
+    color: #fff;
+    transform: scale(1.2, 1.2);
+}
+@keyframes scrollAnim{
+    from{
+        bottom: 50px;
+    }
+    to{
+        bottom: 40px;
+    }
+}
+
 
 @media only screen and (max-width: 992px){
 
