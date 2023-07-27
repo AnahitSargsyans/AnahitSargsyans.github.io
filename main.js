@@ -17,6 +17,20 @@ mob.addEventListener("click", function(){
     xmark.classList.toggle("block");
 })
 
+let scrollBtn=document.querySelector(".scrollBtn");
+scrollBtn.addEventListener("click", scrollUpPage)
+window.addEventListener("scroll", scrollUpBtnBlock)
+function scrollUpBtnBlock(){
+    if(window.pageYOffset>document.documentElement.clientHeight/2){
+        scrollBtn.style.display="block";       
+    }else{
+        scrollBtn.style.display="none";       
+    }
+}
+function scrollUpPage(){    
+    window.scrollTo(0, 0);
+}
+
 let container=document.querySelector("#container");
 let sliderItems=container.querySelectorAll(".containerItem");
 let balls=document.querySelectorAll(".ball")
