@@ -5,6 +5,17 @@ AOS.init({
     //delay: 0
 });
 
+let fixed=document.querySelector(".fixed");
+let header=document.querySelector(".header");
+window.addEventListener("scroll", scrollUpFixed);
+function scrollUpFixed(){
+    if(window.pageYOffset>header.getBoundingClientRect().top+700){
+    fixed.style.display="block";
+        }else{
+        fixed.style.display="none";
+    }
+}
+
 let mob=document.querySelector(".mobile-menu");
 let menuLeftside=document.querySelector(".menu-leftside");
 console.log(mob);
@@ -76,7 +87,6 @@ balls.forEach(function(ball, index){
         nextSlideBlock(index)
     })
 })
-
 function nextSlideBlock(nextIndex){
     let nextSlide=container.querySelector(`[data-index="${nextIndex}"]`);
     nextSlide.classList.remove("hidden");
