@@ -254,12 +254,13 @@ body{
 .place{
     width: 100%;
     height: auto;
+    padding: 20px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 .church{
     width: 60%;
     height: 500px;
-    margin: 20px auto;
+    margin: 0px auto;
     background-image: url(../image/Gayane.jpg);
     background-size: cover;
     background-repeat: no-repeat;
