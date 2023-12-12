@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.preloader{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 15px dotted rgb(255, 153, 153);
+    border-top: 15px dotted rgb(206, 71, 71);
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.hiddenLoader{
+    display: none;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+.fixed{
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/header1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+
+.header-card{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    position: relative;
+}
+.heart{
+    width: 40%;
+    height: 400px;
+    background-image: url(../image/heart1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+.photoHeart1{
+    background-image: url(../image/heart1.png);
+    position: absolute;
+    left: -40%;
+}
+.photoHeart2{
+    background-image: url(../image/heart2.png);
+    position: absolute;
+    right: -40%;
+}
+.headerText{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.35;
+    padding: 50px 0px 20px;
+    text-align: center;
+    color: white;
+    z-index: 3;
+}
+.header-name{
+    font-size: 92px;
+    font-family: "vrdznagir";
+    font-weight: 300;
+    line-height: 1.35;
+    padding: 50px 0px;
+    text-align: center;
+    color: white;
+}
+.timerText{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.35;
+    color: white;
+    text-align: center;
+    padding: 20px 0px 10px;
+}
+.flex-div{
+    width: 100%;
+    height: 200px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+.flex-div>div{
+    height: 100px;
+    margin: 10px;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+.names{
+    font-size: 18px;
+    text-align: center;
+}
+.nshan{
+    opacity: 1;
+    animation-name: nshanSharj;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes nshanSharj{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+.invite{
+    width: 40%;
+    margin: auto;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.35;
+    padding: 50px 0px;
+    color: white;
+    text-align: center;
+}
+.text{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.35;
+    padding: 50px 0px 0px;
+    text-align: center;
+    color: white;
+}
+.wedding{
+    width: 45%;
+    margin: auto;
+    font-size: 72px;
+    font-family: "vrdznagir";
+    font-weight: 300;
+    line-height: 1.35;
+    padding: 50px 0px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+.eventProgramme{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.eventProgramme>h1{
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 1.35;
+    padding: 50px 0px;
+    text-align: center;
+}
+.timetable-block{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 70px;
+}
+.double{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.double-leftcol{
+    width: 20%;
+    padding: 10px 10px 10px 50px;
+}
+.double-rightcol{
+    width: 55%;
+    padding: 0px 10px 10px 50px;
+    border-left: 1px solid rgb(255, 153, 153);
+    position: relative;
+}
+.double-leftcolMob{
+    display: none;
+}
+.fa-heart, .fa-camera, .fa-church, .fa-location-dot,
+.fa-champagne-glasses, .fa-cake-candles{
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    left: -20px;
+    background-color: white;
+}
+.fa-church{
+    left: -25px;
+}
+.fa-location-dot{
+    left: -15px;
+}
+.fa-champagne-glasses{
+    left: -25px;
+}
+.eventProgramme>.timetable-block>.double>.double-leftcol>p{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.35;
+}
+.eventProgramme>.timetable-block>.double>.double-rightcol>h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.35;
+    padding-bottom: 15px;
+}
+.eventProgramme>.timetable-block>.double>.double-rightcol>p{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.35;
+    padding-bottom: 50px;
+}
+
+
+
+.place{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.church{
+    width: 60%;
+    height: 500px;
+    margin: 20px auto;
+    background-image: url(../image/Gayane.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.map{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+.map-text{
+    font-size: 30px;
+    color: white;
+}
+iframe{
+    width: 50%;
+    height: 450px;
+}
+.restoran{
+    width: 60%;
+    height: 500px;
+    margin: 20px auto;
+    padding-top: 50px;
+    background-image: url(../image/Prime\ Hall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.info{
+    width: 100%;
+    padding: 40px;
+    background-color: rgb(255, 153, 153);
+    color: white;
+    text-align: center;
+}
+.info>h1{
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.35;   
+}
+.info>p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.35;
+}
+
+
+@font-face{
+    font-family: "vrdznagir";
+    src: url(../fonts/Vrdznagir.otf) format("opentype");
+}
+
+
+
+
+@media only screen and (max-width: 992px){
+    .heart{
+        width: 25%;
+        height: 150px;
+    }
+    .headerText{
+        font-size: 22px;
+    }
+    .header-name{
+        font-size: 82px;
+    }
+    .timerText{
+        font-size: 22px;
+    }
+    .flex-div>div{
+        font-size: 50px;
+    }
+    .invite{
+        width: 80%;
+        padding: 10px 0px;
+    }
+    .wedding{
+        width: 100%;
+        font-size: 62px;
+    }
+
+
+
+    .eventProgramme>h1{
+        font-size: 46px;
+    }
+    .timetable-block{
+        width: 100%;
+    }
+    .double-leftcol{
+        padding-left: 20px;
+    }
+    
+
+
+    .place{
+        padding: 20px;
+    }
+    .church, .restoran{
+        width: 80%;
+    }
+    .church{
+        margin: 0px auto;
+    }
+    .map{
+        flex-direction: column;
+    }
+    .map-text{
+        padding-bottom: 30px;
+    }
+    iframe{
+        width: 90%;
+        height: 400px;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .headerText{
+        font-size: 20px;
+    }
+    .header-name{
+        font-size: 42px;
+        padding: 20px 0px;
+    }
+    .timerText{
+        font-size: 20px;
+    }
+    .flex-div>div{
+        font-size: 34px;
+    }
+    .names{
+        font-size: 12px;
+    }
+    .invite{
+        width: 100%;
+        font-size: 20px;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .wedding{
+        font-size: 38px;
+    }
+
+
+
+    .eventProgramme>h1{
+        font-size: 32px;
+    }
+    .double{
+        width: 80%;
+        height: 170px;
+        margin: auto;
+    }
+    .double-leftcol{
+        padding-left: 50px;
+        display: none;
+    }
+    .double-leftcolMob{
+        display: block;
+    }
+    .eventProgramme>.timetable-block>.double>.double-rightcol>.double-leftcolMob>p{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .double-rightcol{
+        width: 100%;
+    }
+    .eventProgramme>.timetable-block>.double>.double-rightcol>h1{
+        font-size: 20px;
+    }
+    .eventProgramme>.timetable-block>.double>.double-rightcol>p{
+        font-size: 16px;
+    }
+    .fa-camera, .fa-church, .fa-location-dot,
+    .fa-champagne-glasses, .fa-cake-candles{
+        top: 15px;
+    }
+
+
+
+
+    .church, .restoran{
+        height: 300px;
+    }
+    .map{
+        padding: 10px;
+    }
+    .map-text{
+        font-size: 22px;
+    }
+    iframe{
+        width: 100%;
+        height: 300px;
+    }
+    
+
+
+    .info>h1{
+        font-size: 20px;
+    }
+    .info>p{
+        font-size: 14px;
+    }
+}
