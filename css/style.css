@@ -732,6 +732,7 @@ ol>li{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    flex-shrink: 0;
 }
 .fa-brands{
     font-size: 20px;
@@ -1055,10 +1056,6 @@ ol>li{
         width: 95%;
         top: 250px;
         right: 0px;
-    }
-    .icon{
-        width: 30%;
-        height: 35px;
     }
     .social-info{
         width: 80%;
