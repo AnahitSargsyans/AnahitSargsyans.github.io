@@ -35,7 +35,7 @@ let vayr=document.querySelector("#vayr");
 function countDown(){
     let d=new Date();
     let dMil=d.getTime(); 
-    let nor=new Date(2024, 1, 14, 7, 30);
+    let nor=new Date(2025, 1, 14, 7, 30);
     let dNorMil=nor.getTime();
     let tarberutyun=dNorMil-dMil
     let days=Math.floor(tarberutyun/(1000*60*60*24))
