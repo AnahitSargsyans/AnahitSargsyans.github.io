@@ -382,7 +382,7 @@ function progressBarJavaScript(){
         if(coordTop<window.innerHeight-50){
             javaScriptSkill.style.width=widthProgressJavaScript+ "%";
             widthProgressJavaScript++;
-            if(widthProgressJavaScript==51){
+            if(widthProgressJavaScript==71){
                 clearInterval(indicator);
             }
             window.removeEventListener("scroll",progressBarJavaScript)
