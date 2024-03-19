@@ -142,7 +142,7 @@ let langArr={
     },
     "myName2":{
         "en":"<b>Name:</b> Anahit Sargsyan",
-        "ru":"<b>Имя:</b> Анаит Срагсян",
+        "ru":"<b>Имя:</b> Анаит Саргсян",
     },
     "country":{
         "en":"<b>Country:</b> Armenia",
