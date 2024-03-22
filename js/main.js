@@ -181,8 +181,8 @@ let langArr={
         "ru":"Мастер Вокала",
     },
     "conservatory":{
-        "en":"Yerevan State Conservatory (2000-2006)",
-        "ru":"Ереванская Государственная Консерватория (2000-2006)",
+        "en":"Yerevan State Conservatory (1999-2006)",
+        "ru":"Ереванская Государственная Консерватория (1999-2006)",
     },
     "bachelor":{
         "en":"Bachelor Of Global Economist", 
@@ -217,7 +217,7 @@ let langArr={
         "ru":"Фронтенд-разработчик",
     },
     "freelancer2":{
-        "en":"Freelanser (2023-present)",
+        "en":"Freelanser (2023 present)",
         "ru":"Фрилансер (2023-настоящее время)",
     },
     "singer":{
@@ -225,7 +225,7 @@ let langArr={
         "ru":"Певица",
     },
     "singer2":{
-        "en":"Ensemble Of Song And Dance (2002-present)",
+        "en":"Ensemble Of Song And Dance (2002 present)",
         "ru":"Ансамбль Песни и Танца (2002-настоящее время)",
     },
     "practice":{
