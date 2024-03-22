@@ -196,9 +196,13 @@ let langArr={
         "en":"My courses",
         "ru":"Курсы",
     },
-    "js":{
+    "js2":{
         "en":"Java Script advanced",
         "ru":"Продвинутый Java Script",
+    },
+    "js1":{
+        "en":"JavaScript fundamental",
+        "ru":"Фундаментальный JavaScript",
     },
     "web":{
         "en":"Web programming for beginner",
@@ -213,16 +217,28 @@ let langArr={
         "ru":"Фронтенд-разработчик",
     },
     "freelancer2":{
-        "en":"Freelanser (2023)",
-        "ru":"Фрилансер (2023)",
+        "en":"Freelanser (2023-present)",
+        "ru":"Фрилансер (2023-настоящее время)",
     },
     "singer":{
         "en":"Singer",
         "ru":"Певица",
     },
     "singer2":{
-        "en":"Ensemble Of Song And Dance (2002 present)",
+        "en":"Ensemble Of Song And Dance (2002-present)",
         "ru":"Ансамбль Песни и Танца (2002-настоящее время)",
+    },
+    "practice":{
+        "en":"My Practice",
+        "ru":"Моя практика",
+    },
+    "internship":{
+        "en":"Internship",
+        "ru":"Стажировка",
+    },
+    "internship2":{
+        "en":"Energy School (september 2023-2024)",
+        "ru":"Energy School (сентябрь 2023-2024)",
     },
     "design":{
         "en":"Web Design",
