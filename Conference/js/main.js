@@ -167,14 +167,3 @@ select.onfocus=btnValid.onclick=function(){
         key.classList.remove("error");
     }
 }
-btnValid.addEventListener("click", function(){
-    //document.body.style.overflow="hidden";
-    let element=document.createElement("div");
-        element.className="order";
-        element.innerHTML=`"Вы успешно записались на конференцию."
-                <h2>${inputs.value}</h2>
-                <h1>${select.value}</h2>
-                    `
-        document.body.append(element);
-        
-})
